@@ -1,0 +1,135 @@
+.section5 {
+  width: 100%;
+  background-color: #0E4D6C;
+  padding: 72px 0 80px;
+}
+
+.section5-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.section5-text {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  width: 100%;
+  max-width: 635px;
+}
+
+.section5-text-title {
+  color: #F05833;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+.section5-text-title2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+
+.liner {
+  border: none;
+  background-color: #F05833;
+  color: #F05833;
+  height: 2px;
+  width: 103px;
+  margin-top: 14px;
+}
+
+.section5-description1 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 22px;
+}
+
+
+
+.description2{
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.description2-circle{
+  width: 9px;
+  height: 9px;
+  background: #F05833;
+  border-radius: 50%;
+}
+
+.description2-text {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 4px;
+}
+
+.section5-form{
+  width: 100%;
+  max-width: 525px;
+}
+
+
+.section5-form__input {
+  width: 100%;
+  height: 49px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 14px;
+
+  background: transparent;
+
+  border: 1px solid #fff;
+}
+
+.section5-form__input::placeholder {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.section5-form__input:focus {
+  outline: none;
+  border-color: orange;
+}
+
+.section5-form__input:nth-child(2) {
+  margin-top: 24px;
+}
+
+
+.section5-form__btn {
+  margin-top: 40px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  background: #F05833;
+  padding: 12px 20px 12px 15px;
+
+}
+
+.section5-form__btn:hover {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  background: #ff9074;
+  padding: 12px 20px 12px 15px;
+
+}

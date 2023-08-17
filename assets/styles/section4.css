@@ -1,0 +1,42 @@
+.section4 {
+  /* height: 423px; */
+  padding: 120px 0 114px;
+  width: 100%;
+  /* background: #FFF; */
+}
+
+.section4-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section4-title {
+  color: #0E4D6C;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  /* margin-top: 120px; */
+}
+
+.section4-price {
+  color: #FBF9FB;
+  font-size: 22px;
+  font-weight: 500;
+  width: 272px;
+  height: 45px;
+  flex-shrink: 0;
+  background: #F05833;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.64);
+  margin-top: 115px;
+
+  /* margin-left: 50%;
+  transform: translateX(20px); */
+
+}
+
+.section4-price:hover {
+  background: #fbf9fb;
+  color: #f05833;
+  box-shadow: 0px 0px 30px 0px #fbf9fb;
+}
