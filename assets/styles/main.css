@@ -295,7 +295,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .header {
+  .hero-btns {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+  }
+  .hero-btn__more {
+    margin-left: 0;
   }
 }
 
