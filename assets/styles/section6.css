@@ -17,9 +17,7 @@
 .section6-conditions {
   width: 100%;
   margin-top: 80px;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
+  display: none;
 }
 
 .section6-conditions-row {
@@ -103,4 +101,27 @@
   font-size: 18px;
   font-weight: 300;
   margin-top: 4px;
+}
+
+.section6-conditions-adaptive {
+  margin-top: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section6-conditions-adaptive {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section6-conditions {
+    display: block;
+  }
+  .section6-conditions-adaptive {
+    display: none;
+  }
 }
