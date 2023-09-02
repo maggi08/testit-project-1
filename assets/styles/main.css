@@ -17,7 +17,7 @@
 
 .container-left {
   width: 100%;
-  padding-left: 70px;
+  padding-left: 16px;
 }
 
 .header {
@@ -51,6 +51,7 @@
   color: #fff;
   text-decoration: none;
   margin: 0 8px;
+  font-size: 16px;
 }
 .nav-link:hover {
   border-bottom: 1px solid white;
@@ -170,6 +171,7 @@
   top: 0;
   left: 0;
   z-index: -2;
+  object-fit: cover;
 }
 
 .hero-title {
@@ -344,6 +346,9 @@
   .container {
     padding: 0 40px;
   }
+  .container-left {
+    padding-left: 40px;
+  }
   .nav-link {
     margin: 0 19px;
   }
@@ -361,6 +366,12 @@
   }
   .container {
     padding: 0 70px;
-    padding: 0 70px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .container-left {
+    padding-left: 70px;
   }
 }
