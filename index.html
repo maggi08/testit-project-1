@@ -151,12 +151,23 @@
       </div>
     </header>
 
-    <main class="main">
-      <section class="hero">
-        <div class="hero-content container">
-          <h1 class="hero-title">Обучение по безопасности и охране труда</h1>
+    <main class="main" onclick="alert('ON click main')">
+      <section class="hero" onclick="alert('ON click hero section')">
+        <div
+          class="hero-content container"
+          onclick="alert('ON click hero content')"
+        >
+          <h1
+            class="hero-title"
+            onclick="alert('ON click hero title'); event.stopPropagation()"
+          >
+            Обучение по безопасности и охране труда
+          </h1>
 
-          <h2 class="hero-description">
+          <h2
+            class="hero-description"
+            onclick="alert('ON click hero description')"
+          >
             Заполните заявку на обучение нажав на кнопку ниже
           </h2>
 
